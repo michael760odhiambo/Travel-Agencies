@@ -1,0 +1,70 @@
+.first{overflow: hidden;
+  background-color:blue;
+  width: 100%;
+  top: 0px;
+  position: fixed;
+
+}
+.first a{float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 30px;
+  text-decoration: none;
+  font-size: 35px;
+  font-family: 'Tangerine', cursive;
+
+
+}
+.first a:hover{
+  background-color: #ddd;
+  color: black;
+}
+img{height: 200px;
+  width:400px;
+  display: inline-block;
+  flex-direction: row;
+  border-radius: 70px 70px 70px ;
+  top:0;
+  padding-top: 20px;}
+
+  h1,h2{font-family: 'Tangerine', cursive;
+    color:green;
+    font-family: fantasy;
+    text-align: center;
+  }
+  .landing{
+    height: 700px;
+    width: 100%;
+    background-image: url("https://media.gettyimages.com/photos/passenger-airplane-landing-at-dusk-picture-id867657758?s=2048x2048");
+background-repeat: no-repeat;
+  }
+  #contacts {
+    text-align: center;
+  }
+  .footer {text-align: center;
+background-color: blue;
+  }
+  .one {font-family: 'Tangerine', cursive;
+  position: absolute;
+  top: 0;
+  left: 16px;
+  font-size: 30px;
+}
+
+.two {font-family: 'Tangerine', cursive;
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+  font-size: 30px;
+}
+
+.third {font-family: 'Tangerine', cursive;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  font-size: 30px;
+}
+body{
+  background-color: grey;
+}
